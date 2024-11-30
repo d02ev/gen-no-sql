@@ -1,0 +1,40 @@
+{
+  "name": "gen-no-sql",
+  "version": "1.0.0",
+  "description": "convert sql schemas to nosql queries and nosql schemas",
+  "main": "server.js",
+  "scripts": {
+    "build": "rimraf dist && babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/d02ev/gen-no-sql.git"
+  },
+  "keywords": [
+    "sql",
+    "nosql",
+    "schema",
+    "parser",
+    "express",
+    "babel",
+    "es6+",
+    "postgresql",
+    "mongodb",
+    "mysql"
+  ],
+  "author": "Vikramaditya Pratap Singh <d02ev>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d02ev/gen-no-sql/issues"
+  },
+  "homepage": "https://github.com/d02ev/gen-no-sql#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "rimraf": "^6.0.1"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
